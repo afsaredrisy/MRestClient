@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRestClient_Example' do
+  pod 'MRestClient', :path => '../'
+
+  target 'MRestClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
