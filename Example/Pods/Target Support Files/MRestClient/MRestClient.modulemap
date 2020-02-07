@@ -1,0 +1,6 @@
+framework module MRestClient {
+  umbrella header "MRestClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

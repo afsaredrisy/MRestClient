@@ -1,0 +1,16 @@
+PODS:
+  - MRestClient (0.1.0)
+
+DEPENDENCIES:
+  - MRestClient (from `../`)
+
+EXTERNAL SOURCES:
+  MRestClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MRestClient: 5a18fb1d5ff19f9a76321c58e17dafba762fb023
+
+PODFILE CHECKSUM: 6f0e5c9a6618a67876d936d1dc66002e2bcf72ff
+
+COCOAPODS: 1.7.5
