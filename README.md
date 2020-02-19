@@ -53,7 +53,7 @@ class Employees: Codable {
 
 ```
 **GET**
-URL = http://dummy.restapiexample.com/api/v1/employees
+URL = http://dummy.restapiexample.com/api/v1/employees <br/>
 Response JSON = Object of Empoyees
 
 ```swift
