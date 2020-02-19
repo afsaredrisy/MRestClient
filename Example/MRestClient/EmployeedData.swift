@@ -12,12 +12,8 @@ import Foundation
 class Employees: Codable {
     var data: [Employee]
     var status: String
-    
-    
     init(data: [Employee], status: String) {
         self.data = data
         self.status = status
     }
-    
-    
 }
