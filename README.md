@@ -7,7 +7,7 @@
 
 ## Example
 
-MRestClient is the HTTP client implementation library written in swift, The goal of this library is to reduce the effort to call REST-API with swift codable object. This is the generic implementation of swift object for request & response body so you can directly interact with codable object without worrying JSON conversion etc. 
+MRestClient is the HTTP client implementation library written in swift, It is small , light weight & simple to use library for HTTP communication .The goal of this library is to reduce the effort to call REST-API with swift codable object. This is the generic implementation of swift object for request & response body so you can directly interact with codable object without worrying JSON conversion etc. 
 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
