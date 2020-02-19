@@ -90,10 +90,8 @@ Sample API description can found [here](http://dummy.restapiexample.com/create)
 ```
 For **PUT** & **DELETE** [See](https://github.com/afsaredrisy/MRestClient/tree/master/Example) demo application 
 
-
-## Author
-
-afsaredrisy, afsaredrisz@icloud.com
+## Contributions
+If wants to improve the Demo or contribute in some way, please do so by creating a pull request. We welcome contributions.
 
 ## License
 
