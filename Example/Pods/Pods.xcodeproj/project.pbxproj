@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1220904B23FC0D3200E08E65 /* HttpClientApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1220904A23FC0D3200E08E65 /* HttpClientApi.swift */; };
-		1220904F23FC0F8900E08E65 /* MRestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1220904E23FC0F8900E08E65 /* MRestClient.swift */; };
+		121156B923FE5163001E6340 /* MRestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121156B723FE5162001E6340 /* MRestClient.swift */; };
+		121156BA23FE5163001E6340 /* HttpClientApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121156B823FE5163001E6340 /* HttpClientApi.swift */; };
 		22611CBC64B59D54F4D5FAB2BCE0D8F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3DD895ABE54DBBB75598D468C78A0E01 /* MRestClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CC3D74DCCD6610202F927016D96D97 /* MRestClient-dummy.m */; };
 		5766B65F017957D8CE6FF75BEA8CF401 /* Pods-MRestClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E95EA6A83373B86DA6B003F63A5FF224 /* Pods-MRestClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0580D3895E0E1A4C79D72F5C16EA5B4F /* MRestClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRestClient.xcconfig; sourceTree = "<group>"; };
-		1220904A23FC0D3200E08E65 /* HttpClientApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientApi.swift; sourceTree = "<group>"; };
-		1220904E23FC0F8900E08E65 /* MRestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRestClient.swift; sourceTree = "<group>"; };
+		121156B723FE5162001E6340 /* MRestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRestClient.swift; sourceTree = "<group>"; };
+		121156B823FE5163001E6340 /* HttpClientApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClientApi.swift; sourceTree = "<group>"; };
 		238D2F2775C424A1D8D732C1DA131826 /* MRestClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRestClient-umbrella.h"; sourceTree = "<group>"; };
 		25F71EAC8139701BA9D7FF9CD23166E6 /* Pods_MRestClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRestClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BB404371600AF8DCDAF9B412C970B0 /* Pods-MRestClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRestClient_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -109,11 +109,19 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		121156B623FE5156001E6340 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				121156B823FE5163001E6340 /* HttpClientApi.swift */,
+				121156B723FE5162001E6340 /* MRestClient.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		147594E85B5A5FAB5AEA3DBE8BAA2C9E /* MRestClient */ = {
 			isa = PBXGroup;
 			children = (
-				1220904E23FC0F8900E08E65 /* MRestClient.swift */,
-				1220904A23FC0D3200E08E65 /* HttpClientApi.swift */,
+				121156B623FE5156001E6340 /* Source */,
 				D9FC02DE800E85677AC08323CCB58872 /* Pod */,
 				FE40BF20D1933C33E4603E90846DFC05 /* Support Files */,
 			);
@@ -395,9 +403,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121156BA23FE5163001E6340 /* HttpClientApi.swift in Sources */,
+				121156B923FE5163001E6340 /* MRestClient.swift in Sources */,
 				3DD895ABE54DBBB75598D468C78A0E01 /* MRestClient-dummy.m in Sources */,
-				1220904F23FC0F8900E08E65 /* MRestClient.swift in Sources */,
-				1220904B23FC0D3200E08E65 /* HttpClientApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/afsaredrisy/MRestClient'
-  s.screenshots     = 'https://github.com/afsaredrisy/MRestClient/blob/master/demo_screen.png'
+  #s.screenshots     = 'https://github.com/afsaredrisy/MRestClient/blob/master/demo_screen.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'afsaredrisy' => 'afsaredrisz@icloud.com' }
   s.source           = { :git => 'https://github.com/afsaredrisy/MRestClient.git', :tag => s.version.to_s }
