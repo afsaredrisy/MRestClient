@@ -22,21 +22,23 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/afsaredrisy/MRestClient'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/afsaredrisy/MRestClient/blob/master/demo_screen.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'afsaredrisy' => 'afsaredrisz@icloud.com' }
   s.source           = { :git => 'https://github.com/afsaredrisy/MRestClient.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://github.com/afsaredrisy'
 
-  s.ios.deployment_target = '8.0'
+   s.ios.deployment_target = '11.0'
+   s.swift_version = '5.0'
+   s.source_files = 'Source/**/*'
 
-  s.source_files = 'MRestClient/Classes/**/*'
+  #s.source_files = 'MRestClient/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MRestClient' => ['MRestClient/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
